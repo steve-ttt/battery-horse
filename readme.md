@@ -23,6 +23,7 @@ Then, you can run the compiled program with command-line arguments:
 
 ```bash
 ./battery-horse.bin -n <number to generate> -min <min-word-count> -max <max-word-count> [-d </path/to/dictionary>]
+if opional -d is omitted it will use "/usr/share/dict/words"
 ```
 
 ## Command-Line Arguments
